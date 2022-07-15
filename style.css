@@ -1,6 +1,27 @@
-@import url("https://use.typekit.net/wic2cgm.css");
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 body{
-    font-family: mundial, sans-serif;
+    font-family: 'Space Mono', monospace;
     font-weight: 200;
     text-align: center;
+}
+img{
+    width: 20%;
+}
+h1{
+    font-size: 2em;
+}
+p{
+    font-size: 1em;
+}
+#dot {
+    height: 25px;
+    width: 25px;
+    margin-top: 1%;
+    display: inline-block;
+    animation: dotanimation 1.5s infinite;
+}
+
+@keyframes dotanimation {
+    from{background-color: black;}
+    to{background-color: white;}
 }
