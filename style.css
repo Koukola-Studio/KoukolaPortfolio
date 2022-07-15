@@ -3,9 +3,11 @@ body{
     font-family: 'Space Mono', monospace;
     font-weight: 200;
     text-align: center;
+    margin: 0;
 }
 img{
     width: 20%;
+    margin-top: 5%;
 }
 h1{
     font-size: 2em;
