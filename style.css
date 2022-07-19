@@ -92,6 +92,16 @@ nav{
     width: 12%;
     margin-left: 50px;
 }
+#yacby:hover{
+    width: 12%;
+    margin-left: 50px;
+    filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
+
+}
+#cd:hover{
+    width: 30%;
+    filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
+}
 .button{
     padding:20px;
     background-color: white;
@@ -246,6 +256,16 @@ footer{
         width: 12%;
         margin-left: 50px;
     }
+    #yacby:hover{
+    width: 12%;
+    margin-left: 50px;
+    filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
+
+}
+#cd:hover{
+    width: 30%;
+    filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
+}
     .button{
         padding:20px;
         background-color: white;
@@ -397,6 +417,16 @@ footer{
         width: 12%;
         margin-left: 50px;
     }
+    #yacby:hover{
+    width: 12%;
+    margin-left: 50px;
+    filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
+
+}
+#cd:hover{
+    width: 30%;
+    filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
+}
     .button{
         padding:20px;
         background-color: white;
@@ -554,6 +584,16 @@ footer{
         margin-left: 0;
         margin-bottom: 7%;
     }
+    #yacby:hover{
+    width: 12%;
+    margin-left: 50px;
+    filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
+
+}
+#cd:hover{
+    width: 30%;
+    filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
+}
     .button{
         padding:20px;
         background-color: white;
