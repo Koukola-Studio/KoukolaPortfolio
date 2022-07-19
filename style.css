@@ -1,29 +1,620 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 body{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Space Mono', monospace;
-    font-weight: 200;
-    text-align: center;
-    margin: 0;
 }
-img{
-    width: 20%;
-    margin-top: 5%;
+nav{
+    display: table;
+    margin-top: 8%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
-h1{
-    font-size: 2em;
+#linky{
+    margin-top: 2%;
 }
-p{
+.linkyNav{
+    margin: 1%;
     font-size: 1em;
+    text-decoration: none;
+    color: black;
 }
-#dot {
-    height: 25px;
-    width: 25px;
-    margin-top: 1%;
-    display: inline-block;
-    animation: dotanimation 1.5s infinite;
+#active{
+    font-weight: 700;
+}
+#logo{
+    width: 7%;
+}
+#menuBanner{
+    padding-top: 15%;
+    padding-bottom: 20%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#headlineBanner{
+    font-size: 3em;
+}
+#subtitle{
+    font-size: 1.5em;
+    color: #000000;
+    font-weight: 400;
+}
+#logo{
+    align-content: end;
+    width: 6%;
+}
+#bannerContent {
+    animation: textanimation 1.25s infinite;
 }
 
-@keyframes dotanimation {
-    from{background-color: black;}
-    to{background-color: white;}
+@keyframes textanimation {
+    from{color: black;}
+    to{color: white;}
 }
+#about{
+    background-color: black;
+    color: white;
+    padding: 3%;
+    display: inline-flex;
+    width: 95%;
+    margin-top: 10%;
+}
+#aboutText{
+    margin-left: 3%;
+    display:table;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1em;
+}
+#aboutImg{
+    vertical-align: sub;
+}
+#meImg{
+    width: 300px;
+}
+#company{
+    padding: 3%;
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+#logos{
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+#cd{
+    width: 30%;
+}
+#yacby{
+    width: 12%;
+    margin-left: 50px;
+}
+.button{
+    padding:20px;
+    background-color: white;
+    margin-top: 1%;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+    color: black;
+    border: 1px solid white;
+    transition: 0.2s;
+}
+.button:hover{
+    padding: 20px;
+    background-color: black;
+    margin-top: 1%;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1em;
+    color: white;
+    border: 1px solid white;
+}
+#content{
+    padding: 3%;
+}
+#mainTopic{
+    border-top: 2px solid black;
+    margin-top: 5%;
+}
+.titlesLarge{
+    width: 50%;
+}
+.projectImageLarge{
+    width: 100%;
+}
+.linkBoxPort{
+    text-decoration: none;
+    color: black;
+}
+.linkBoxPort:hover{
+      text-decoration: underline;
+      color: black;
+}
+.cards{
+    display: inline-flex;
+}
+.cards2{
+    width: 95%;
+    margin: 25px;
+    border-top: 2px solid black;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 3%;
+    width: 95%;
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+@media (max-width: 1200px) {
+    /* Large screens */
+}
+@media (max-width: 1024px) {
+    /* Small screens */
+    body{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Space Mono', monospace;
+    }
+    nav{
+        display: table;
+        margin-top: 10%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #linky{
+        margin-top: 5%;
+    }
+    .linkyNav{
+        margin: 1%;
+        font-size: 1.3em;
+        text-decoration: none;
+        color: black;
+    }
+    #active{
+        font-weight: 700;
+    }
+    #menuBanner{
+        padding-top: 15%;
+        padding-bottom: 20%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #headlineBanner{
+        font-size: 3em;
+    }
+    #subtitle{
+        font-size: 1.5em;
+        color: #000000;
+        font-weight: 400;
+    }
+    #logo{
+        align-content: end;
+        width: 12%;
+    }
+    #bannerContent {
+        animation: textanimation 1.25s infinite;
+    }
+
+    @keyframes textanimation {
+        from{color: black;}
+        to{color: white;}
+    }
+    #about{
+        background-color: black;
+        color: white;
+        padding: 6%;
+        display: block;
+        width: 89%;
+        margin-top: 10%;
+    }
+    #aboutText{
+        margin-left: 3%;
+        display:table;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 1em;
+    }
+    #aboutImg{
+        vertical-align: sub;
+    }
+    #meImg{
+        width: 225px;
+    }
+    #company{
+        padding: 3%;
+        display: block;
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
+    #logos{
+        display: inline-flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+    }
+    #cd{
+        width: 30%;
+    }
+    #yacby{
+        width: 12%;
+        margin-left: 50px;
+    }
+    .button{
+        padding:20px;
+        background-color: white;
+        margin-top: 1%;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1em;
+        color: black;
+        border: 1px solid white;
+        transition: 0.2s;
+    }
+    .button:hover{
+        padding: 20px;
+        background-color: black;
+        margin-top: 1%;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1em;
+        color: white;
+        border: 1px solid white;
+    }
+    #content {
+        padding: 3%;
+    }
+    #mainTopic{
+        border-top: 2px solid black;
+        margin-top: 5%;
+    }
+    .titlesLarge{
+        width: 100%;
+    }
+    .projectImageLarge{
+        width: 100%;
+    }
+    .linkBoxPort{
+        text-decoration: none;
+        color: black;
+    }
+    .linkBoxPort:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    .cards{
+        display: inline-flex;
+    }
+    .cards2{
+        width: 95%;
+        margin: 25px;
+        border-top: 2px solid black;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        padding: 3%;
+        width: 95%;
+        margin-top: 5%;
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    /* iPad screens */
+    body{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Space Mono', monospace;
+    }
+    nav{
+        display: table;
+        margin-top: 10%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #linky{
+        margin-top: 5%;
+    }
+    .linkyNav{
+        margin: 1%;
+        font-size: 1.3em;
+        text-decoration: none;
+        color: black;
+    }
+    #active{
+        font-weight: 700;
+    }
+    #menuBanner{
+        padding-top: 15%;
+        padding-bottom: 20%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #headlineBanner{
+        font-size: 3em;
+    }
+    #subtitle{
+        font-size: 1.5em;
+        color: #000000;
+        font-weight: 400;
+    }
+    #logo{
+        align-content: end;
+        width: 12%;
+    }
+    #bannerContent {
+        animation: textanimation 1.25s infinite;
+    }
+
+    @keyframes textanimation {
+        from{color: black;}
+        to{color: white;}
+    }
+    #about{
+        background-color: black;
+        color: white;
+        padding: 6%;
+        display: block;
+        width: 89%;
+        margin-top: 10%;
+    }
+    #aboutText{
+        margin-left: 3%;
+        display:table;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 1em;
+    }
+    #aboutImg{
+        vertical-align: sub;
+    }
+    #meImg{
+        width: 225px;
+    }
+    #company{
+        padding: 3%;
+        display: block;
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
+    #logos{
+        display: inline-flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+    }
+    #cd{
+        width: 30%;
+    }
+    #yacby{
+        width: 12%;
+        margin-left: 50px;
+    }
+    .button{
+        padding:20px;
+        background-color: white;
+        margin-top: 1%;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1em;
+        color: black;
+        border: 1px solid white;
+        transition: 0.2s;
+    }
+    .button:hover{
+        padding: 20px;
+        background-color: black;
+        margin-top: 1%;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1em;
+        color: white;
+        border: 1px solid white;
+    }
+    #content {
+        padding: 3%;
+    }
+    #mainTopic{
+        border-top: 2px solid black;
+        margin-top: 5%;
+    }
+    .titlesLarge{
+        width: 100%;
+    }
+    .projectImageLarge{
+        width: 100%;
+    }
+    .linkBoxPort{
+        text-decoration: none;
+        color: black;
+    }
+    .linkBoxPort:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    .cards{
+        display: inline-flex;
+    }
+    .cards2{
+        width: 95%;
+        margin: 25px;
+        border-top: 2px solid black;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        padding: 3%;
+        width: 95%;
+        margin-top: 5%;
+        text-align: center;
+    }
+}
+@media (max-width: 480px) {
+    /* Mobile screens */
+    body{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Space Mono', monospace;
+    }
+    nav{
+        display: table;
+        margin-top: 10%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #linky{
+        margin-top: 5%;
+    }
+    .linkyNav{
+        margin: 1%;
+        font-size: 1em;
+        text-decoration: none;
+        color: black;
+    }
+    #active{
+        font-weight: 700;
+    }
+    #menuBanner{
+        padding-top: 15%;
+        padding-bottom: 20%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #headlineBanner{
+        font-size: 2em;
+    }
+    #subtitle{
+        font-size: 1.25em;
+        color: #000000;
+        font-weight: 400;
+    }
+    #logo{
+        align-content: end;
+        width: 12%;
+    }
+    #bannerContent {
+        animation: textanimation 1.25s infinite;
+    }
+
+    @keyframes textanimation {
+        from{color: black;}
+        to{color: white;}
+    }
+    #about{
+        background-color: black;
+        color: white;
+        padding: 10%;
+        display: block;
+        width: 80%;
+        margin-top: 10%;
+    }
+    #aboutText{
+        margin-left: 3%;
+        display:table;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 1em;
+    }
+    #aboutImg{
+        vertical-align: sub;
+    }
+    #meImg{
+        width: 100%;
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #company{
+        padding: 3%;
+        display: block;
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
+    #logos{
+        display: table;
+        margin-top: 10%;
+
+    }
+    #cd{
+        width: 50%;
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+    #yacby{
+        width: 24%;
+        margin-top: 7%;
+        margin-left: 0;
+        margin-bottom: 7%;
+    }
+    .button{
+        padding:20px;
+        background-color: white;
+        margin-top: 1%;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1em;
+        color: black;
+        border: 1px solid white;
+        transition: 0.2s;
+    }
+    .button:hover{
+        padding: 20px;
+        background-color: black;
+        margin-top: 1%;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1em;
+        color: white;
+        border: 1px solid white;
+    }
+    #content {
+        padding: 3%;
+    }
+    #mainTopic{
+        border-top: 2px solid black;
+        margin-top: 5%;
+    }
+    .titlesLarge{
+        width: 100%;
+    }
+    .projectImageLarge{
+        width: 100%;
+    }
+    .linkBoxPort{
+        text-decoration: none;
+        color: black;
+    }
+    .linkBoxPort:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    .cards{
+        display: table;
+        margin-bottom: 20%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cards2{
+        width: 85%;
+        margin: 25px;
+        border-top: 2px solid black;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        padding: 10%;
+        width: 80%;
+        margin-top: 5%;
+        text-align: center;
+        font-size: 1em;
+    }
+}
+
