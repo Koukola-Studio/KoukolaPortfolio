@@ -87,10 +87,12 @@ nav{
 }
 #cd{
     width: 30%;
+    transition: 200ms;
 }
 #yacby{
     width: 12%;
     margin-left: 50px;
+    transition: 200ms;
 }
 #yacby:hover{
     width: 12%;
@@ -251,10 +253,12 @@ footer{
     }
     #cd{
         width: 30%;
+        transition: 200ms;
     }
     #yacby{
         width: 12%;
         margin-left: 50px;
+        transition: 200ms;
     }
     #yacby:hover{
     width: 12%;
@@ -412,10 +416,12 @@ footer{
     }
     #cd{
         width: 30%;
+        transition: 200ms;
     }
     #yacby{
         width: 12%;
         margin-left: 50px;
+        transition: 200ms;
     }
     #yacby:hover{
     width: 12%;
@@ -577,12 +583,14 @@ footer{
         width: 50%;
         margin-top: 7%;
         margin-bottom: 7%;
+        transition: 200ms;
     }
     #yacby{
         width: 24%;
         margin-top: 7%;
         margin-left: 0;
         margin-bottom: 7%;
+        transition: 200ms;
     }
     #yacby:hover{
     width: 12%;
