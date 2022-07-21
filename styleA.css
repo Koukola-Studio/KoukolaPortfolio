@@ -57,7 +57,7 @@ nav{
     color: white;
     padding: 3%;
     display: inline-flex;
-    width: 95%;
+    width: 94%;
     margin-top: 10%;
 }
 #aboutText{
@@ -68,10 +68,10 @@ nav{
     font-size: 1em;
 }
 #aboutImg{
-    vertical-align: sub;
+    display: inline-flex;
 }
-#meImg{
-    width: 300px;
+.meImg{
+    width: 200px;
 }
 #company{
     padding: 3%;
@@ -125,43 +125,19 @@ nav{
     color: white;
     border: 1px solid white;
 }
-#content{
-    padding: 3%;
-}
-#mainTopic{
-    border-top: 2px solid black;
-    margin-top: 5%;
-}
-.titlesLarge{
-    width: 50%;
-}
-.projectImageLarge{
-    width: 100%;
-}
-.linkBoxPort{
-    text-decoration: none;
-    color: black;
-}
-.linkBoxPort:hover{
-      text-decoration: underline;
-      color: black;
-}
-.cards{
-    display: inline-flex;
-}
-.cards2{
-    width: 95%;
-    margin: 25px;
-    border-top: 2px solid black;
-}
 footer{
     background-color: black;
     color: white;
     padding: 3%;
-    width: 95%;
+    width: 94%;
     margin-top: 5%;
     text-align: center;
     margin-bottom: 5%;
+}
+.aboutl{
+    text-decoration: underline;
+    color: white;
+    font-weight: 700;
 }
 @media (max-width: 1200px) {
     /* Large screens */
@@ -223,7 +199,7 @@ footer{
         color: white;
         padding: 6%;
         display: block;
-        width: 89%;
+        width: 88%;
         margin-top: 10%;
     }
     #aboutText{
@@ -232,12 +208,16 @@ footer{
         margin-top: auto;
         margin-bottom: auto;
         font-size: 1em;
+        width: 95%;
     }
     #aboutImg{
-        vertical-align: sub;
+        display: inline-flex;
     }
-    #meImg{
-        width: 225px;
+    .meImg{
+        width: 50%;
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
     }
     #company{
         padding: 3%;
@@ -258,71 +238,11 @@ footer{
         width: 12%;
         margin-left: 50px;
     }
-    #yacby:hover{
-        width: 12%;
-        margin-left: 50px;
-        filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
-
-    }
-    #cd:hover{
-        width: 30%;
-        filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
-    }
-    .button{
-        padding:20px;
-        background-color: white;
-        margin-top: 1%;
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 1em;
-        color: black;
-        border: 1px solid white;
-        transition: 0.2s;
-    }
-    .button:hover{
-        padding: 20px;
-        background-color: black;
-        margin-top: 1%;
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 1em;
-        color: white;
-        border: 1px solid white;
-    }
-    #content {
-        padding: 3%;
-    }
-    #mainTopic{
-        border-top: 2px solid black;
-        margin-top: 5%;
-    }
-    .titlesLarge{
-        width: 100%;
-    }
-    .projectImageLarge{
-        width: 100%;
-    }
-    .linkBoxPort{
-        text-decoration: none;
-        color: black;
-    }
-    .linkBoxPort:hover{
-        text-decoration: underline;
-        color: black;
-    }
-    .cards{
-        display: inline-flex;
-    }
-    .cards2{
-        width: 95%;
-        margin: 25px;
-        border-top: 2px solid black;
-    }
     footer{
         background-color: black;
         color: white;
         padding: 3%;
-        width: 95%;
+        width: 94%;
         margin-top: 5%;
         text-align: center;
     }
@@ -384,7 +304,7 @@ footer{
         color: white;
         padding: 6%;
         display: block;
-        width: 89%;
+        width: 88%;
         margin-top: 10%;
     }
     #aboutText{
@@ -392,13 +312,17 @@ footer{
         display:table;
         margin-top: auto;
         margin-bottom: auto;
-        font-size: 1em;
+        font-size: 1.1em;
+        width: 95%;
     }
     #aboutImg{
-        vertical-align: sub;
+        display: inline-flex;
     }
-    #meImg{
-        width: 225px;
+    .meImg{
+        width: 50%;
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
     }
     #company{
         padding: 3%;
@@ -419,71 +343,11 @@ footer{
         width: 12%;
         margin-left: 50px;
     }
-    #yacby:hover{
-        width: 12%;
-        margin-left: 50px;
-        filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
-
-    }
-    #cd:hover{
-        width: 30%;
-        filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
-    }
-    .button{
-        padding:20px;
-        background-color: white;
-        margin-top: 1%;
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 1em;
-        color: black;
-        border: 1px solid white;
-        transition: 0.2s;
-    }
-    .button:hover{
-        padding: 20px;
-        background-color: black;
-        margin-top: 1%;
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 1em;
-        color: white;
-        border: 1px solid white;
-    }
-    #content {
-        padding: 3%;
-    }
-    #mainTopic{
-        border-top: 2px solid black;
-        margin-top: 5%;
-    }
-    .titlesLarge{
-        width: 100%;
-    }
-    .projectImageLarge{
-        width: 100%;
-    }
-    .linkBoxPort{
-        text-decoration: none;
-        color: black;
-    }
-    .linkBoxPort:hover{
-        text-decoration: underline;
-        color: black;
-    }
-    .cards{
-        display: inline-flex;
-    }
-    .cards2{
-        width: 95%;
-        margin: 25px;
-        border-top: 2px solid black;
-    }
     footer{
         background-color: black;
         color: white;
         padding: 3%;
-        width: 95%;
+        width: 94%;
         margin-top: 5%;
         text-align: center;
     }
@@ -555,11 +419,14 @@ footer{
         margin-bottom: auto;
         font-size: 1em;
     }
+    #titleA{
+        font-size: 0.9em;
+    }
     #aboutImg{
         vertical-align: sub;
     }
-    #meImg{
-        width: 100%;
+    .meImg{
+        width: 50%;
         display: table;
         margin-left: auto;
         margin-right: auto;
@@ -586,68 +453,116 @@ footer{
         margin-left: 0;
         margin-bottom: 7%;
     }
-    #yacby:hover{
-        width: 12%;
-        margin-left: 50px;
-        filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
-
-    }
-    #cd:hover{
-        width: 30%;
-        filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
-    }
-    .button{
-        padding:20px;
-        background-color: white;
-        margin-top: 1%;
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 1em;
-        color: black;
-        border: 1px solid white;
-        transition: 0.2s;
-    }
-    .button:hover{
-        padding: 20px;
+    footer{
         background-color: black;
-        margin-top: 1%;
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 1em;
         color: white;
-        border: 1px solid white;
+        padding: 10%;
+        width: 80%;
+        margin-top: 5%;
+        text-align: center;
+        font-size: 1em;
     }
-    #content {
-        padding: 3%;
+}
+@media (max-width: 360px) {
+    /* Mobile screens */
+    body{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Space Mono', monospace;
     }
-    #mainTopic{
-        border-top: 2px solid black;
+    nav{
+        display: table;
+        margin-top: 10%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #linky{
         margin-top: 5%;
     }
-    .titlesLarge{
-        width: 100%;
-    }
-    .projectImageLarge{
-        width: 100%;
-    }
-    .linkBoxPort{
+    .linkyNav{
+        margin: 1%;
+        font-size: 1em;
         text-decoration: none;
         color: black;
     }
-    .linkBoxPort:hover{
-        text-decoration: underline;
-        color: black;
+    #active{
+        font-weight: 700;
     }
-    .cards{
+    #menuBanner{
+        padding-top: 15%;
+        padding-bottom: 20%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #headlineBanner{
+        font-size: 2em;
+    }
+    #subtitle{
+        font-size: 1.25em;
+        color: #000000;
+        font-weight: 400;
+    }
+    #logo{
+        align-content: end;
+        width: 12%;
+    }
+    #bannerContent {
+        animation: textanimation 1.25s infinite;
+    }
+
+    @keyframes textanimation {
+        from{color: black;}
+        to{color: white;}
+    }
+    #about{
+        background-color: black;
+        color: white;
+        padding: 10%;
+        display: block;
+        width: 80%;
+        margin-top: 10%;
+    }
+    #aboutText{
+        margin-left: 3%;
+        display:table;
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 1em;
+    }
+    #titleA{
+        font-size: 0.7em;
+    }
+    #aboutImg{
+        vertical-align: sub;
+    }
+    .meImg{
+        width: 50%;
         display: table;
-        margin-bottom: 20%;
         margin-left: auto;
         margin-right: auto;
     }
-    .cards2{
-        width: 85%;
-        margin: 25px;
-        border-top: 2px solid black;
+    #company{
+        padding: 3%;
+        display: block;
+        margin-top: 5%;
+        margin-bottom: 8%;
+    }
+    #logos{
+        display: table;
+        margin-top: 10%;
+
+    }
+    #cd{
+        width: 50%;
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }
+    #yacby{
+        width: 24%;
+        margin-top: 7%;
+        margin-left: 0;
+        margin-bottom: 7%;
     }
     footer{
         background-color: black;

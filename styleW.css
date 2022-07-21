@@ -125,35 +125,6 @@ nav{
     color: white;
     border: 1px solid white;
 }
-#content{
-    padding: 3%;
-}
-#mainTopic{
-    border-top: 2px solid black;
-    margin-top: 5%;
-}
-.titlesLarge{
-    width: 50%;
-}
-.projectImageLarge{
-    width: 100%;
-}
-.linkBoxPort{
-    text-decoration: none;
-    color: black;
-}
-.linkBoxPort:hover{
-      text-decoration: underline;
-      color: black;
-}
-.cards{
-    display: inline-flex;
-}
-.cards2{
-    width: 95%;
-    margin: 25px;
-    border-top: 2px solid black;
-}
 footer{
     background-color: black;
     color: white;
@@ -289,35 +260,6 @@ footer{
         color: white;
         border: 1px solid white;
     }
-    #content {
-        padding: 3%;
-    }
-    #mainTopic{
-        border-top: 2px solid black;
-        margin-top: 5%;
-    }
-    .titlesLarge{
-        width: 100%;
-    }
-    .projectImageLarge{
-        width: 100%;
-    }
-    .linkBoxPort{
-        text-decoration: none;
-        color: black;
-    }
-    .linkBoxPort:hover{
-        text-decoration: underline;
-        color: black;
-    }
-    .cards{
-        display: inline-flex;
-    }
-    .cards2{
-        width: 95%;
-        margin: 25px;
-        border-top: 2px solid black;
-    }
     footer{
         background-color: black;
         color: white;
@@ -449,35 +391,6 @@ footer{
         font-size: 1em;
         color: white;
         border: 1px solid white;
-    }
-    #content {
-        padding: 3%;
-    }
-    #mainTopic{
-        border-top: 2px solid black;
-        margin-top: 5%;
-    }
-    .titlesLarge{
-        width: 100%;
-    }
-    .projectImageLarge{
-        width: 100%;
-    }
-    .linkBoxPort{
-        text-decoration: none;
-        color: black;
-    }
-    .linkBoxPort:hover{
-        text-decoration: underline;
-        color: black;
-    }
-    .cards{
-        display: inline-flex;
-    }
-    .cards2{
-        width: 95%;
-        margin: 25px;
-        border-top: 2px solid black;
     }
     footer{
         background-color: black;
@@ -616,38 +529,6 @@ footer{
         font-size: 1em;
         color: white;
         border: 1px solid white;
-    }
-    #content {
-        padding: 3%;
-    }
-    #mainTopic{
-        border-top: 2px solid black;
-        margin-top: 5%;
-    }
-    .titlesLarge{
-        width: 100%;
-    }
-    .projectImageLarge{
-        width: 100%;
-    }
-    .linkBoxPort{
-        text-decoration: none;
-        color: black;
-    }
-    .linkBoxPort:hover{
-        text-decoration: underline;
-        color: black;
-    }
-    .cards{
-        display: table;
-        margin-bottom: 20%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .cards2{
-        width: 85%;
-        margin: 25px;
-        border-top: 2px solid black;
     }
     footer{
         background-color: black;
