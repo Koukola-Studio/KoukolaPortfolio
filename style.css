@@ -1,662 +1,648 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://use.typekit.net/icq8nho.css");
 body{
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Space Mono', monospace;
+    margin: 55px;
+    background-color: white;
+    font-family: stratos, sans-serif;
+    filter: invert(0%);
+    animation-name: filterAnimation;
+    animation-duration: 2s;
 }
-nav{
-    display: table;
-    margin-top: 8%;
-    padding-left: 3%;
-    padding-right: 3%;
-}
-#linky{
-    margin-top: 2%;
-}
-.linkyNav{
-    margin: 1%;
-    font-size: 1em;
-    text-decoration: none;
-    color: black;
-}
-#active{
-    font-weight: 700;
-}
-#logo{
-    width: 7%;
-}
-#menuBanner{
-    padding-top: 15%;
-    padding-bottom: 20%;
-    padding-left: 3%;
-    padding-right: 3%;
-}
-#headlineBanner{
-    font-size: 3em;
-}
-#subtitle{
-    font-size: 1.5em;
-    color: #000000;
-    font-weight: 400;
-}
-#logo{
-    align-content: end;
-    width: 6%;
-}
-#bannerContent {
-    animation: textanimation 1.25s infinite;
+@keyframes filterAnimation {
+    from{filter: invert(100%); background-color: black;}
+    to{filter: invert(0%);}
 }
 
+/*NAV BAR*/
+/*NAV BAR*/
+/*NAV BAR*/
+
+nav{
+}
+h2{
+    font-weight: 400;
+}
+#links{
+    text-align: end;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.15em;
+    transition: 200ms;
+}
+.link:hover{
+    color: #ababab;
+    text-decoration: line-through;
+}
+.link:not(:last-child){
+    margin-right: 20px;
+}
+
+/*RECTANGLES*/
+/*RECTANGLES*/
+/*RECTANGLES*/
+
+.rectangle{
+    border: 7px black solid;
+    height: 25px;
+    width: 100%;
+}
+.rectangle:not(:last-child){
+    margin-bottom: 1%;
+}
+#rectangles{
+    margin-top: 5%;
+}
+
+/*MAIN BLOCK*/
+/*MAIN BLOCK*/
+/*MAIN BLOCK*/
+
+#mainBlock{
+    display: inline-flex;
+    gap: 50px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#mainBlockL{
+    width: 50%;
+}
+#mainBlockR{
+    width: 50%;
+    text-align: justify;
+}
+#mainTitle{
+    font-weight: 100;
+}
+#nextMainTitle{
+    color: #ababab;
+    font-family: "Space Mono", monospace;
+    font-size: 1.15em;
+}
+#sideTitle{
+    font-weight: 200;
+    font-size: 1.15em;
+    font-family: "Space Mono", monospace;
+    color: #ababab;
+    letter-spacing: 1px;
+    text-space: 20px;
+}
+.scrollText{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    animation: textanimation 1.25s infinite;
+}
 @keyframes textanimation {
     from{color: black;}
     to{color: white;}
 }
-#about{
-    background-color: black;
-    color: white;
-    padding: 3%;
-    display: inline-flex;
-    width: 95%;
-    margin-top: 10%;
-}
-#aboutText{
-    margin-left: 3%;
-    display:table;
-    margin-top: auto;
-    margin-bottom: auto;
-    font-size: 1em;
-}
-#aboutImg{
-    vertical-align: sub;
-}
-#meImg{
-    width: 300px;
-}
-#company{
-    padding: 3%;
-    display: block;
-    margin-top: 5%;
-    margin-bottom: 8%;
-}
-#logos{
-    display: inline-flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3%;
-}
-#cd{
-    width: 30%;
+.mainLinks{
+    text-decoration: underline;
+    color: #7a7a7a;
     transition: 200ms;
 }
-#yacby{
-    width: 12%;
-    margin-left: 50px;
-    transition: 200ms;
+.mainLinks:hover{
+    text-decoration: line-through;
+    color: #232323;
 }
-#yacby:hover{
-    width: 12%;
-    margin-left: 50px;
-    filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
 
-}
-#cd:hover{
-    width: 30%;
-    filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
-}
-.button{
-    padding:20px;
-    background-color: white;
-    margin-top: 1%;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 1em;
-    color: black;
-    border: 1px solid white;
-    transition: 0.2s;
-}
-.button:hover{
-    padding: 20px;
-    background-color: black;
-    margin-top: 1%;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 1em;
-    color: white;
-    border: 1px solid white;
-}
-#content{
-    padding: 3%;
-}
-#mainTopic{
-    border-top: 2px solid black;
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+/*PORTFOLIO*/
+
+.portfolioLine{
+    display: inline-flex;
+    gap: 50px;
     margin-top: 5%;
-}
-.titlesLarge{
-    width: 50%;
-}
-.projectImageLarge{
+    margin-bottom: 5%;
     width: 100%;
 }
-.linkBoxPort{
-    text-decoration: none;
-    color: black;
+.blocks{
+    width: 50%;
+    transition: 200ms;
 }
-.linkBoxPort:hover{
-      text-decoration: underline;
-      color: black;
+.blocks:hover{
+    text-decoration: underline;
 }
-.cards{
-    display: inline-flex;
+.titlePortfolio{
+
 }
-.cards2{
-    width: 95%;
-    margin: 25px;
-    border-top: 2px solid black;
+.subtitlePortfolio{
+    font-family: "Space Mono", monospace;
+    font-size: 1.1em;
+    text-align: justify;
+    color: #ababab;
 }
+.datePortfolio{
+    font-family: "Space Mono", monospace;
+    color: #ababab;
+}
+.portImage{
+    width: 100%;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+
 footer{
-    background-color: black;
-    color: white;
-    padding: 3%;
-    width: 95%;
-    margin-top: 5%;
+    padding: 2%;
     text-align: center;
-    margin-bottom: 5%;
+    margin-top: 50px;
 }
-@media (max-width: 1200px) {
-    /* Large screens */
-}
-@media (max-width: 1024px) {
-    /* Small screens */
+
+/*SMALL SCREENS*/
+/*SMALL SCREENS*/
+/*SMALL SCREENS*/
+
+@media (max-width: 1024px){
     body{
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-        font-family: 'Space Mono', monospace;
+        margin: 65px
     }
+    /*NAV BAR*/
+    /*NAV BAR*/
+    /*NAV BAR*/
+
     nav{
-        display: table;
-        margin-top: 10%;
-        padding-left: 3%;
-        padding-right: 3%;
+        width: 97%;
     }
-    #linky{
-        margin-top: 5%;
-    }
-    .linkyNav{
-        margin: 1%;
-        font-size: 1.3em;
-        text-decoration: none;
-        color: black;
-    }
-    #active{
-        font-weight: 700;
-    }
-    #menuBanner{
-        padding-top: 15%;
-        padding-bottom: 20%;
-        padding-left: 3%;
-        padding-right: 3%;
-    }
-    #headlineBanner{
-        font-size: 3em;
-    }
-    #subtitle{
-        font-size: 1.5em;
-        color: #000000;
+    h2{
         font-weight: 400;
     }
-    #logo{
-        align-content: end;
-        width: 12%;
+    #links{
+        text-align: end;
     }
-    #bannerContent {
-        animation: textanimation 1.25s infinite;
+    .link{
+        text-decoration: none;
+        color: black;
+        font-size: 1em;
+        transition: 200ms;
+    }
+    .link:hover{
+        color: #ababab;
+        text-decoration: line-through;
+    }
+    .link:not(:last-child){
+        margin-right: 20px;
     }
 
+    /*RECTANGLES*/
+    /*RECTANGLES*/
+    /*RECTANGLES*/
+
+    .rectangle{
+        border: 7px black solid;
+        height: 25px;
+        width: 100%;
+    }
+    .rectangle:not(:last-child){
+        margin-bottom: 1%;
+    }
+    #rectangles{
+        margin-top: 5%;
+    }
+
+    /*MAIN BLOCK*/
+    /*MAIN BLOCK*/
+    /*MAIN BLOCK*/
+
+    #mainBlock{
+        display: inline-flex;
+        gap: 50px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 97%;
+    }
+    #mainBlockL{
+        width: 50%;
+    }
+    #mainBlockR{
+        width: 50%;
+        text-align: justify;
+    }
+    #mainTitle{
+        font-weight: 100;
+    }
+    #nextMainTitle{
+        color: #ababab;
+        font-family: "Space Mono", monospace;
+        font-size: 1.1em;
+    }
+    #sideTitle{
+        font-weight: 200;
+        font-size: 1.1em;
+        font-family: "Space Mono", monospace;
+        color: #ababab;
+        letter-spacing: 1px;
+        text-space: 20px;
+    }
+    .scrollText{
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        animation: textanimation 1.25s infinite;
+    }
     @keyframes textanimation {
         from{color: black;}
         to{color: white;}
     }
-    #about{
-        background-color: black;
-        color: white;
-        padding: 6%;
-        display: block;
-        width: 89%;
-        margin-top: 10%;
-    }
-    #aboutText{
-        margin-left: 3%;
-        display:table;
-        margin-top: auto;
-        margin-bottom: auto;
-        font-size: 1em;
-    }
-    #aboutImg{
-        vertical-align: sub;
-    }
-    #meImg{
-        width: 225px;
-    }
-    #company{
-        padding: 3%;
-        display: block;
-        margin-top: 5%;
-        margin-bottom: 8%;
-    }
-    #logos{
-        display: inline-flex;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 3%;
-    }
-    #cd{
-        width: 30%;
-    }
-    #yacby{
-        width: 12%;
-        margin-left: 50px;
-    }
-    #yacby:hover{
-        width: 12%;
-        margin-left: 50px;
-        filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
-
-    }
-    #cd:hover{
-        width: 30%;
-        filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
-    }
-    .button{
-        padding:20px;
-        background-color: white;
-        margin-top: 1%;
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 1em;
-        color: black;
-        border: 1px solid white;
-        transition: 0.2s;
-    }
-    .button:hover{
-        padding: 20px;
-        background-color: black;
-        margin-top: 1%;
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 1em;
-        color: white;
-        border: 1px solid white;
-    }
-    #content {
-        padding: 3%;
-    }
-    #mainTopic{
-        border-top: 2px solid black;
-        margin-top: 5%;
-    }
-    .titlesLarge{
-        width: 100%;
-    }
-    .projectImageLarge{
-        width: 100%;
-    }
-    .linkBoxPort{
-        text-decoration: none;
-        color: black;
-    }
-    .linkBoxPort:hover{
+    .mainLinks{
         text-decoration: underline;
-        color: black;
+        color: #7a7a7a;
+        transition: 200ms;
     }
-    .cards{
+    .mainLinks:hover{
+        text-decoration: line-through;
+        color: #232323;
+    }
+
+    /*PORTFOLIO*/
+    /*PORTFOLIO*/
+    /*PORTFOLIO*/
+
+    .portfolioLine{
         display: inline-flex;
-    }
-    .cards2{
-        width: 95%;
-        margin: 25px;
-        border-top: 2px solid black;
-    }
-    footer{
-        background-color: black;
-        color: white;
-        padding: 3%;
-        width: 95%;
+        gap: 50px;
         margin-top: 5%;
+        margin-bottom: 5%;
+        width: 97%;
+    }
+    .blocks{
+        width: 50%;
+        transition: 200ms;
+    }
+    .blocks:hover{
+        text-decoration: underline;
+    }
+    .titlePortfolio{
+        font-size: 1.5em;
+    }
+    .subtitlePortfolio{
+        font-family: "Space Mono", monospace;
+        font-size: 1em;
+        text-align: justify;
+        color: #ababab;
+    }
+    .datePortfolio{
+        font-family: "Space Mono", monospace;
+        color: #ababab;
+    }
+    .portImage{
+        width: 100%;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+    /*FOOTER*/
+    /*FOOTER*/
+    /*FOOTER*/
+
+    footer{
+        padding: 2%;
         text-align: center;
+        margin-top: 50px;
     }
 }
-@media (max-width: 768px) {
-    /* iPad screens */
+
+/*IPAD SCREENS*/
+/*IPAD SCREENS*/
+/*IPAD SCREENS*/
+
+@media (max-width: 768px){
     body{
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-        font-family: 'Space Mono', monospace;
+        margin: 65px
     }
+    /*NAV BAR*/
+    /*NAV BAR*/
+    /*NAV BAR*/
+
     nav{
-        display: table;
-        margin-top: 10%;
-        padding-left: 3%;
-        padding-right: 3%;
+        width: 97%;
     }
-    #linky{
-        margin-top: 5%;
-    }
-    .linkyNav{
-        margin: 1%;
-        font-size: 1.3em;
-        text-decoration: none;
-        color: black;
-    }
-    #active{
-        font-weight: 700;
-    }
-    #menuBanner{
-        padding-top: 15%;
-        padding-bottom: 20%;
-        padding-left: 3%;
-        padding-right: 3%;
-    }
-    #headlineBanner{
-        font-size: 3em;
-    }
-    #subtitle{
-        font-size: 1.5em;
-        color: #000000;
+    h2{
         font-weight: 400;
     }
-    #logo{
-        align-content: end;
-        width: 12%;
+    #links{
+        text-align: left;
     }
-    #bannerContent {
-        animation: textanimation 1.25s infinite;
+    .link{
+        text-decoration: none;
+        color: black;
+        font-size: 1.25em;
+        transition: 200ms;
+    }
+    .link:hover{
+        color: #ababab;
+        text-decoration: line-through;
+    }
+    .link:not(:last-child){
+        margin-right: 20px;
     }
 
+    /*RECTANGLES*/
+    /*RECTANGLES*/
+    /*RECTANGLES*/
+
+    .rectangle{
+        border: 7px black solid;
+        height: 25px;
+        width: 100%;
+    }
+    .rectangle:not(:last-child){
+        margin-bottom: 1%;
+    }
+    #rectangles{
+        margin-top: 5%;
+    }
+
+    /*MAIN BLOCK*/
+    /*MAIN BLOCK*/
+    /*MAIN BLOCK*/
+
+    #mainBlock{
+        display: block;
+        gap: 50px;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        width: 97%;
+    }
+    #mainBlockL{
+        width: 100%;
+        margin-bottom: 15%;
+    }
+    #mainBlockR{
+        width: 100%;
+        text-align: justify;
+    }
+    #mainTitle{
+        font-weight: 100;
+        font-size: 2.25em;
+    }
+    #nextMainTitle{
+        color: #ababab;
+        font-family: "Space Mono", monospace;
+        font-size: 1.25em;
+    }
+    #sideTitle{
+        font-weight: 200;
+        font-size: 1.25em;
+        font-family: "Space Mono", monospace;
+        color: #ababab;
+        letter-spacing: 1px;
+        text-space: 20px;
+    }
+    .scrollText{
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        animation: textanimation 1.25s infinite;
+    }
     @keyframes textanimation {
         from{color: black;}
         to{color: white;}
     }
-    #about{
-        background-color: black;
-        color: white;
-        padding: 6%;
-        display: block;
-        width: 89%;
-        margin-top: 10%;
-    }
-    #aboutText{
-        margin-left: 3%;
-        display:table;
-        margin-top: auto;
-        margin-bottom: auto;
-        font-size: 1em;
-    }
-    #aboutImg{
-        vertical-align: sub;
-    }
-    #meImg{
-        width: 225px;
-    }
-    #company{
-        padding: 3%;
-        display: block;
-        margin-top: 5%;
-        margin-bottom: 8%;
-    }
-    #logos{
-        display: inline-flex;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 3%;
-    }
-    #cd{
-        width: 30%;
-    }
-    #yacby{
-        width: 12%;
-        margin-left: 50px;
-    }
-    #yacby:hover{
-        width: 12%;
-        margin-left: 50px;
-        filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
-
-    }
-    #cd:hover{
-        width: 30%;
-        filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
-    }
-    .button{
-        padding:20px;
-        background-color: white;
-        margin-top: 1%;
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 1em;
-        color: black;
-        border: 1px solid white;
-        transition: 0.2s;
-    }
-    .button:hover{
-        padding: 20px;
-        background-color: black;
-        margin-top: 1%;
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 1em;
-        color: white;
-        border: 1px solid white;
-    }
-    #content {
-        padding: 3%;
-    }
-    #mainTopic{
-        border-top: 2px solid black;
-        margin-top: 5%;
-    }
-    .titlesLarge{
-        width: 100%;
-    }
-    .projectImageLarge{
-        width: 100%;
-    }
-    .linkBoxPort{
-        text-decoration: none;
-        color: black;
-    }
-    .linkBoxPort:hover{
+    .mainLinks{
         text-decoration: underline;
-        color: black;
+        color: #7a7a7a;
+        transition: 200ms;
     }
-    .cards{
-        display: inline-flex;
+    .mainLinks:hover{
+        text-decoration: line-through;
+        color: #232323;
     }
-    .cards2{
-        width: 95%;
-        margin: 25px;
-        border-top: 2px solid black;
-    }
-    footer{
-        background-color: black;
-        color: white;
-        padding: 3%;
-        width: 95%;
+
+    /*PORTFOLIO*/
+    /*PORTFOLIO*/
+    /*PORTFOLIO*/
+
+    .portfolioLine{
+        display: block;
+        gap: 50px;
         margin-top: 5%;
-        text-align: center;
+        margin-bottom: 5%;
+        width: 97%;
     }
-}
-@media (max-width: 480px) {
-    /* Mobile screens */
-    body{
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto;
-        font-family: 'Space Mono', monospace;
+    .blocks{
+        width: 100%;
+        transition: 200ms;
     }
-    nav{
-        display: table;
-        margin-top: 10%;
-        padding-left: 3%;
-        padding-right: 3%;
+    .blocks:not(:last-child){
+    margin-bottom: 15%;
     }
-    #linky{
-        margin-top: 5%;
+    .blocks:hover{
+        text-decoration: underline;
     }
-    .linkyNav{
-        margin: 1%;
-        font-size: 1em;
-        text-decoration: none;
-        color: black;
-    }
-    #active{
-        font-weight: 700;
-    }
-    #menuBanner{
-        padding-top: 15%;
-        padding-bottom: 20%;
-        padding-left: 3%;
-        padding-right: 3%;
-    }
-    #headlineBanner{
+    .titlePortfolio{
         font-size: 2em;
     }
-    #subtitle{
+    .subtitlePortfolio{
+        font-family: "Space Mono", monospace;
         font-size: 1.25em;
-        color: #000000;
-        font-weight: 400;
+        text-align: justify;
+        color: #ababab;
     }
-    #logo{
-        align-content: end;
-        width: 12%;
+    .projectPortfolio{
+        font-size: 1.25em;
     }
-    #bannerContent {
-        animation: textanimation 1.25s infinite;
+    .datePortfolio{
+        font-family: "Space Mono", monospace;
+        color: #ababab;
+        font-size: 1.25em;
+    }
+    .portImage{
+        width: 100%;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
     }
 
+    /*FOOTER*/
+    /*FOOTER*/
+    /*FOOTER*/
+
+    footer{
+        padding: 2%;
+        text-align: center;
+        margin-top: 150px;
+        font-size: 1.15em;
+        letter-spacing: 1px;
+    }
+}
+
+/*MOBILE SCREENS*/
+/*MOBILE SCREENS*/
+/*MOBILE SCREENS*/
+
+@media (max-width: 480px){
+    body{
+        margin: 55px
+    }
+    /*NAV BAR*/
+    /*NAV BAR*/
+    /*NAV BAR*/
+
+    nav{
+        width: 97%;
+    }
+    h2{
+        font-weight: 400;
+    }
+    #links{
+        text-align: left;
+    }
+    .link{
+        text-decoration: none;
+        color: black;
+        font-size: 1em;
+        transition: 200ms;
+    }
+    .link:hover{
+        color: #ababab;
+        text-decoration: line-through;
+    }
+    .link:not(:last-child){
+        margin-right: 20px;
+    }
+
+    /*RECTANGLES*/
+    /*RECTANGLES*/
+    /*RECTANGLES*/
+
+    .rectangle{
+        border: 7px black solid;
+        height: 25px;
+        width: 100%;
+    }
+    .rectangle:not(:last-child){
+        margin-bottom: 1%;
+    }
+    #rectangles{
+        margin-top: 5%;
+    }
+
+    /*MAIN BLOCK*/
+    /*MAIN BLOCK*/
+    /*MAIN BLOCK*/
+
+    #mainBlock{
+        display: block;
+        gap: 50px;
+        margin-top: 35%;
+        margin-bottom: 35%;
+        width: 97%;
+    }
+    #mainBlockL{
+        width: 100%;
+        margin-bottom: 15%;
+    }
+    #mainBlockR{
+        width: 100%;
+        text-align: justify;
+    }
+    #mainTitle{
+        font-weight: 100;
+        font-size: 1.75em;
+    }
+    #nextMainTitle{
+        color: #ababab;
+        font-family: "Space Mono", monospace;
+        font-size: 1em;
+    }
+    #sideTitle{
+        font-weight: 200;
+        font-size: 1em;
+        font-family: "Space Mono", monospace;
+        color: #ababab;
+        letter-spacing: 1px;
+        text-space: 20px;
+    }
+    .scrollText{
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        animation: textanimation 1.25s infinite;
+    }
     @keyframes textanimation {
         from{color: black;}
         to{color: white;}
     }
-    #about{
-        background-color: black;
-        color: white;
-        padding: 10%;
-        display: block;
-        width: 80%;
-        margin-top: 10%;
-    }
-    #aboutText{
-        margin-left: 3%;
-        display:table;
-        margin-top: auto;
-        margin-bottom: auto;
-        font-size: 1em;
-    }
-    #aboutImg{
-        vertical-align: sub;
-    }
-    #meImg{
-        width: 100%;
-        display: table;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #company{
-        padding: 3%;
-        display: block;
-        margin-top: 5%;
-        margin-bottom: 8%;
-    }
-    #logos{
-        display: table;
-        margin-top: 10%;
-
-    }
-    #cd{
-        width: 50%;
-        margin-top: 7%;
-        margin-bottom: 7%;
-    }
-    #yacby{
-        width: 24%;
-        margin-top: 7%;
-        margin-left: 0;
-        margin-bottom: 7%;
-    }
-    #yacby:hover{
-        width: 12%;
-        margin-left: 50px;
-        filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
-
-    }
-    #cd:hover{
-        width: 30%;
-        filter: invert(82%) sepia(2%) saturate(20%) hue-rotate(25deg) brightness(101%) contrast(96%);
-    }
-    .button{
-        padding:20px;
-        background-color: white;
-        margin-top: 1%;
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 1em;
-        color: black;
-        border: 1px solid white;
-        transition: 0.2s;
-    }
-    .button:hover{
-        padding: 20px;
-        background-color: black;
-        margin-top: 1%;
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 1em;
-        color: white;
-        border: 1px solid white;
-    }
-    #content {
-        padding: 3%;
-    }
-    #mainTopic{
-        border-top: 2px solid black;
-        margin-top: 5%;
-    }
-    .titlesLarge{
-        width: 100%;
-    }
-    .projectImageLarge{
-        width: 100%;
-    }
-    .linkBoxPort{
-        text-decoration: none;
-        color: black;
-    }
-    .linkBoxPort:hover{
+    .mainLinks{
         text-decoration: underline;
-        color: black;
+        color: #7a7a7a;
+        transition: 200ms;
     }
-    .cards{
-        display: table;
-        margin-bottom: 20%;
-        margin-left: auto;
-        margin-right: auto;
+    .mainLinks:hover{
+        text-decoration: line-through;
+        color: #232323;
     }
-    .cards2{
-        width: 85%;
-        margin: 25px;
-        border-top: 2px solid black;
-    }
-    footer{
-        background-color: black;
-        color: white;
-        padding: 10%;
-        width: 80%;
+
+    /*PORTFOLIO*/
+    /*PORTFOLIO*/
+    /*PORTFOLIO*/
+
+    .portfolioLine{
+        display: block;
+        gap: 50px;
         margin-top: 5%;
-        text-align: center;
+        margin-bottom: 5%;
+        width: 97%;
+    }
+    .blocks{
+        width: 100%;
+        transition: 200ms;
+    }
+    .blocks:not(:last-child){
+        margin-bottom: 15%;
+    }
+    .blocks:hover{
+        text-decoration: underline;
+    }
+    .titlePortfolio{
+        font-size: 1.5em;
+    }
+    .subtitlePortfolio{
+        font-family: "Space Mono", monospace;
         font-size: 1em;
+        text-align: justify;
+        color: #ababab;
+    }
+    .projectPortfolio{
+        font-size: 1em;
+    }
+    .datePortfolio{
+        font-family: "Space Mono", monospace;
+        color: #ababab;
+        font-size: 1em;
+    }
+    .portImage{
+        width: 100%;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+    /*FOOTER*/
+    /*FOOTER*/
+    /*FOOTER*/
+
+    footer{
+        padding: 2%;
+        text-align: center;
+        margin-top: 150px;
+        font-size: 0.8em;
+        letter-spacing: 1px;
     }
 }
-
