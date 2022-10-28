@@ -53,6 +53,17 @@ h2{
 .link:not(:last-child){
     margin-right: 20px;
 }
+#homeLink{
+    text-decoration: none;
+    color: black;
+    transition: 200ms;
+    display: inline-block;
+}
+
+#homeLink:hover{
+    color: #ababab;
+    transition: 200ms;
+}
 
 /*RECTANGLES*/
 /*RECTANGLES*/
@@ -70,6 +81,30 @@ h2{
     margin-top: 5%;
 }
 
+/*VIDEO*/
+/*VIDEO*/
+/*VIDEO*/
+
+.video{
+    background-color: #6E158B;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: 500ms;
+}
+.video:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: 500ms;
+}
+#showcase{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.videoPort{
+    width: 100%;
+}
+
 /*MAIN BLOCK*/
 /*MAIN BLOCK*/
 /*MAIN BLOCK*/
@@ -77,8 +112,8 @@ h2{
 #mainBlock{
     display: inline-flex;
     gap: 50px;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 #mainBlockL{
     width: 50%;
@@ -91,16 +126,15 @@ h2{
     margin-top: auto;
     margin-bottom: auto;
 }
-#mainTitle{
-    font-weight: 300;
-    font-family: 'Poppins', sans-serif;
+.mainTitle{
+    font-weight: normal;
 }
-#nextMainTitle{
+.nextMainTitle{
     color: #ababab;
     font-family: 'Space Grotesk', sans-serif;
     font-size: 1.15em;
 }
-#sideTitle{
+.sideTitle{
     font-weight: 200;
     font-size: 1.15em;
     font-family: 'Space Grotesk', sans-serif;
@@ -127,60 +161,68 @@ h2{
     text-decoration: line-through;
     color: #232323;
 }
-#textPicture{
-    gap: 55px;
-}
-#profile{
-    width: 150px;
-    height: 150px;
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-}
 
-/*PORTFOLIO*/
-/*PORTFOLIO*/
-/*PORTFOLIO*/
 
-.portfolioLine{
+#preparationBlock{
     display: inline-flex;
     gap: 50px;
-    margin-top: 5%;
-    margin-bottom: 5%;
     width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
-.blocks{
-    width: 100%;
-    transition: 200ms;
+#preparationBlockL{
+    width: 50%;
 }
-.blocks a{
-    text-decoration: none;
-}
-.blocks:hover{
-    text-decoration: underline;
-    -webkit-filter: brightness(.5);
-    filter: brightness(.5);
-}
-.titlePortfolio{
-    color: black;
-}
-.projectPortfolio{
-    color: black;
-}
-.subtitlePortfolio{
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 1.1em;
+#preparationBlockR{
+    width: 50%;
     text-align: justify;
-    color: #ababab;
 }
-.datePortfolio{
-    font-family: 'Space Grotesk', sans-serif;
-    color: #ababab;
-}
-.portImage{
+
+#designBlock{
+    display: inline-flex;
+    gap: 50px;
     width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#designBlockL{
+    width: 50%;
+}
+#designBlockR{
+    width: 50%;
+    text-align: justify;
+}
+
+#finalBlock{
+    display: inline-flex;
+    gap: 50px;
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#finalBlockL{
+    width: 50%;
+}
+#finalBlockR{
+    width: 50%;
+    text-align: justify;
+}
+
+.images{
+    display: inline-flex;
+}
+#logo1{
+    width: 50%;
+    height: 50%;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+#logo2{
+    width: 50%;
+    height: 50%;
     -webkit-user-drag: none;
     user-select: none;
     -moz-user-select: none;
@@ -188,6 +230,20 @@ h2{
     -ms-user-select: none;
 }
 
+#conclusionBlock{
+    display: inline-flex;
+    gap: 50px;
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#conclusionBlockL{
+    width: 50%;
+}
+#conclusionBlockR{
+    width: 50%;
+    text-align: justify;
+}
 /*FOOTER*/
 /*FOOTER*/
 /*FOOTER*/
@@ -256,6 +312,19 @@ footer{
         margin-top: 5%;
     }
 
+    /*VIDEO*/
+    /*VIDEO*/
+    /*VIDEO*/
+
+    #showcase{
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+    }
+    .videoPort{
+        width: 100%;
+    }
+
     /*MAIN BLOCK*/
     /*MAIN BLOCK*/
     /*MAIN BLOCK*/
@@ -274,15 +343,15 @@ footer{
         width: 50%;
         text-align: justify;
     }
-    #mainTitle{
-        font-weight: 100;
-        font-style: normal;
+    .mainTitle{
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
     }
-    #nextMainTitle{
+    .nextMainTitle{
         color: #ababab;
         font-size: 1.1em;
     }
-    #sideTitle{
+    .sideTitle{
         font-weight: 200;
         font-size: 1.1em;
         color: #ababab;
@@ -308,50 +377,90 @@ footer{
         text-decoration: line-through;
         color: #232323;
     }
-    #textPicture{
-        gap: 35px;
-    }
-    #profile{
-        width: 125px;
-        height: 125px;
-    }
 
-    /*PORTFOLIO*/
-    /*PORTFOLIO*/
-    /*PORTFOLIO*/
-
-    .portfolioLine{
+    #preparationBlock{
         display: inline-flex;
         gap: 50px;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        margin-top: 10%;
+        margin-bottom: 10%;
         width: 97%;
+        font-weight: 300;
     }
-    .blocks{
-        width: 100%;
-        transition: 200ms;
+    #preparationBlockL{
+        width: 50%;
     }
-    .blocks:hover{
-        text-decoration: underline;
-    }
-    .titlePortfolio{
-        font-size: 1.5em;
-    }
-    .subtitlePortfolio{
-        font-size: 1em;
+    #preparationBlockR{
+        width: 50%;
         text-align: justify;
-        color: #ababab;
     }
-    .datePortfolio{
-        color: #ababab;
+
+    #designBlock{
+        display: inline-flex;
+        gap: 50px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 97%;
+        font-weight: 300;
     }
-    .portImage{
+    #designBlockL{
+        width: 50%;
+    }
+    #designBlockR{
+        width: 50%;
+        text-align: justify;
+    }
+
+    #finalBlock{
+        display: inline-flex;
+        gap: 50px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 97%;
+        font-weight: 300;
+    }
+    #finalBlockL{
+        width: 50%;
+    }
+    #finalBlockR{
+        width: 50%;
+        text-align: justify;
+    }
+
+    .images{
+        display: block;
+    }
+    #logo1{
         width: 100%;
+        height: 100%;
         -webkit-user-drag: none;
         user-select: none;
         -moz-user-select: none;
         -webkit-user-select: none;
         -ms-user-select: none;
+    }
+    #logo2{
+        width: 100%;
+        height: 100%;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+    #conclusionBlock{
+        display: inline-flex;
+        gap: 50px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 97%;
+    }
+    #conclusionBlockL{
+        width: 50%;
+    }
+    #conclusionBlockR{
+        width: 50%;
+        text-align: justify;
     }
 
     /*FOOTER*/
@@ -416,6 +525,17 @@ footer{
         margin-top: 5%;
     }
 
+    /*VIDEO*/
+    /*VIDEO*/
+    /*VIDEO*/
+
+    #showcase{
+        width: 75%;
+    }
+    .videoPort{
+        width: 100%;
+    }
+
     /*MAIN BLOCK*/
     /*MAIN BLOCK*/
     /*MAIN BLOCK*/
@@ -435,15 +555,16 @@ footer{
         width: 100%;
         text-align: justify;
     }
-    #mainTitle{
-        font-weight: 100;
+    .mainTitle{
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
         font-size: 2.25em;
     }
-    #nextMainTitle{
+    .nextMainTitle{
         color: #ababab;
         font-size: 1.25em;
     }
-    #sideTitle{
+    .sideTitle{
         font-weight: 200;
         font-size: 1.25em;
         color: #ababab;
@@ -490,49 +611,90 @@ footer{
         height: 125px;
     }
 
-    /*PORTFOLIO*/
-    /*PORTFOLIO*/
-    /*PORTFOLIO*/
-
-    .portfolioLine{
+    #preparationBlock{
         display: block;
         gap: 50px;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        margin-top: 15%;
+        margin-bottom: 15%;
         width: 97%;
+        font-weight: 300;
     }
-    .blocks{
+    #preparationBlockL{
         width: 100%;
-        transition: 200ms;
     }
-    .blocks:not(:last-child){
-    margin-bottom: 15%;
-    }
-    .blocks:hover{
-        text-decoration: underline;
-    }
-    .titlePortfolio{
-        font-size: 2em;
-    }
-    .subtitlePortfolio{
-        font-size: 1.25em;
+    #preparationBlockR{
+        width: 100%;
         text-align: justify;
-        color: #ababab;
     }
-    .projectPortfolio{
-        font-size: 1.25em;
+
+    #designBlock{
+        display: block;
+        gap: 50px;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        width: 97%;
+        font-weight: 300;
     }
-    .datePortfolio{
-        color: #ababab;
-        font-size: 1.25em;
-    }
-    .portImage{
+    #designBlockL{
         width: 100%;
+    }
+    #designBlockR{
+        width: 100%;
+        text-align: justify;
+    }
+
+    #finalBlock{
+        display: block;
+        gap: 50px;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        width: 97%;
+        font-weight: 300;
+    }
+    #finalBlockL{
+        width: 100%;
+    }
+    #finalBlockR{
+        width: 100%;
+        text-align: justify;
+    }
+
+    .images{
+        display: block;
+    }
+    #logo1{
+        width: 100%;
+        height: 100%;
         -webkit-user-drag: none;
         user-select: none;
         -moz-user-select: none;
         -webkit-user-select: none;
         -ms-user-select: none;
+    }
+    #logo2{
+        width: 100%;
+        height: 100%;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+    #conclusionBlock{
+        display: block;
+        gap: 50px;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        width: 97%;
+        font-weight: 300;
+    }
+    #conclusionBlockL{
+        width: 100%;
+    }
+    #conclusionBlockR{
+        width: 100%;
+        text-align: justify;
     }
 
     /*FOOTER*/
@@ -599,6 +761,13 @@ footer{
         margin-top: 5%;
     }
 
+    #showcase{
+        width: 100%;
+    }
+    .videoPort{
+        width: 100%;
+    }
+
     /*MAIN BLOCK*/
     /*MAIN BLOCK*/
     /*MAIN BLOCK*/
@@ -618,15 +787,16 @@ footer{
         width: 100%;
         text-align: justify;
     }
-    #mainTitle{
-        font-weight: 100;
+    .mainTitle{
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
         font-size: 1.75em;
     }
-    #nextMainTitle{
+    .nextMainTitle{
         color: #ababab;
         font-size: 1em;
     }
-    #sideTitle{
+    .sideTitle{
         font-weight: 200;
         font-size: 1em;
         color: #ababab;
@@ -660,49 +830,90 @@ footer{
         height: 125px;
     }
 
-    /*PORTFOLIO*/
-    /*PORTFOLIO*/
-    /*PORTFOLIO*/
-
-    .portfolioLine{
+    #preparationBlock{
         display: block;
         gap: 50px;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        margin-top: 35%;
+        margin-bottom: 35%;
         width: 97%;
+        font-weight: 300;
     }
-    .blocks{
+    #preparationBlockL{
         width: 100%;
-        transition: 200ms;
     }
-    .blocks:not(:last-child){
-        margin-bottom: 15%;
-    }
-    .blocks:hover{
-        text-decoration: underline;
-    }
-    .titlePortfolio{
-        font-size: 1.5em;
-    }
-    .subtitlePortfolio{
-        font-size: 1em;
+    #preparationBlockR{
+        width: 100%;
         text-align: justify;
-        color: #ababab;
     }
-    .projectPortfolio{
-        font-size: 1em;
+
+    #designBlock{
+        display: block;
+        gap: 50px;
+        margin-top: 35%;
+        margin-bottom: 35%;
+        width: 97%;
+        font-weight: 300;
     }
-    .datePortfolio{
-        color: #ababab;
-        font-size: 1em;
-    }
-    .portImage{
+    #designBlockL{
         width: 100%;
+    }
+    #designBlockR{
+        width: 100%;
+        text-align: justify;
+    }
+
+    #finalBlock{
+        display: block;
+        gap: 50px;
+        margin-top: 35%;
+        margin-bottom: 35%;
+        width: 97%;
+        font-weight: 300;
+    }
+    #finalBlockL{
+        width: 100%;
+    }
+    #finalBlockR{
+        width: 100%;
+        text-align: justify;
+    }
+
+    .images{
+        display: block;
+    }
+    #logo1{
+        width: 100%;
+        height: 100%;
         -webkit-user-drag: none;
         user-select: none;
         -moz-user-select: none;
         -webkit-user-select: none;
         -ms-user-select: none;
+    }
+    #logo2{
+        width: 100%;
+        height: 100%;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+    #conclusionBlock{
+        display: block;
+        gap: 50px;
+        margin-top: 35%;
+        margin-bottom: 35%;
+        width: 97%;
+        font-weight: 300;
+    }
+    #conclusionBlockL{
+        width: 100%;
+    }
+    #conclusionBlockR{
+        width: 100%;
+        text-align: justify;
     }
 
     /*FOOTER*/
