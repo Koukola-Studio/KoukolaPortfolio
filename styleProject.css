@@ -96,12 +96,26 @@ h2{
     filter: grayscale(0%);
     transition: 500ms;
 }
+.image{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: 500ms;
+}
+.image:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition: 500ms;
+}
 #showcase{
     margin-left: auto;
     margin-right: auto;
     width: 25%;
 }
-.videoPort{
+#showcaseImage{
+    width: 25%;
+    display: inline-flex;
+}
+.imageSC{
     width: 100%;
 }
 
@@ -114,6 +128,7 @@ h2{
     gap: 50px;
     margin-top: 5%;
     margin-bottom: 5%;
+    width: 100%;
 }
 #mainBlockL{
     width: 50%;
@@ -211,9 +226,12 @@ h2{
 .images{
     display: inline-flex;
 }
+.imagesBIG{
+    width: 100%;
+}
 #logo1{
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     -webkit-user-drag: none;
     user-select: none;
     -moz-user-select: none;
@@ -221,15 +239,32 @@ h2{
     -ms-user-select: none;
 }
 #logo2{
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     -webkit-user-drag: none;
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
 }
-
+#logo3{
+    width: 100%;
+    height: 100%;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+#logo4{
+    width: 100%;
+    height: 100%;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
 #conclusionBlock{
     display: inline-flex;
     gap: 50px;
