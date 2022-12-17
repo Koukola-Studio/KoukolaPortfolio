@@ -174,7 +174,7 @@ h2{
     width: 100%;
     transition: 200ms;
     display: grid;
-    grid-template-rows: max-content 50px 1fr;
+    grid-template-rows: min-content 50px 1fr;
 }
 .blocks a{
     text-decoration: none;
@@ -506,6 +506,20 @@ footer{
     /*PORTFOLIO*/
     /*PORTFOLIO*/
     /*PORTFOLIO*/
+    .portfolioLine{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 50px;
+    }
+    .blocks{
+        width: 100%;
+        transition: 200ms;
+        display: grid;
+        grid-template-rows: min-content 100px;
+    }
     .titlePortfolio{
         font-size: 2em;
     }
@@ -660,6 +674,20 @@ footer{
     /*PORTFOLIO*/
     /*PORTFOLIO*/
 
+    .portfolioLine{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 50px;
+    }
+    .blocks{
+        width: 100%;
+        transition: 200ms;
+        display: grid;
+        grid-template-rows: min-content 75px;
+    }
     .titlePortfolio{
         font-size: 1.5em;
     }
@@ -694,5 +722,13 @@ footer{
         margin-top: 150px;
         font-size: 0.8em;
         letter-spacing: 1px;
+    }
+}
+@media (max-width: 310px){
+    .blocks{
+        width: 100%;
+        transition: 200ms;
+        display: grid;
+        grid-template-rows: min-content 100px;
     }
 }
