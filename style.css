@@ -8,6 +8,9 @@ body{
     animation-name: filterAnimation;
     animation-duration: 2s;
 }
+a:link{
+    text-decoration: none;
+}
 @keyframes filterAnimation {
     from{filter: invert(100%); background-color: black;}
     to{filter: invert(0%);}
@@ -160,15 +163,18 @@ h2{
 /*PORTFOLIO*/
 
 .portfolioLine{
-    display: inline-flex;
-    gap: 50px;
     margin-top: 5%;
     margin-bottom: 5%;
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    grid-gap: 50px;
 }
 .blocks{
     width: 100%;
     transition: 200ms;
+    display: grid;
+    grid-template-rows: max-content 50px 1fr;
 }
 .blocks a{
     text-decoration: none;
@@ -201,6 +207,12 @@ h2{
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+}
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 
 /*FOOTER*/
@@ -334,21 +346,6 @@ footer{
     /*PORTFOLIO*/
     /*PORTFOLIO*/
     /*PORTFOLIO*/
-
-    .portfolioLine{
-        display: inline-flex;
-        gap: 50px;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        width: 97%;
-    }
-    .blocks{
-        width: 100%;
-        transition: 200ms;
-    }
-    .blocks:hover{
-        text-decoration: underline;
-    }
     .titlePortfolio{
         font-size: 1.5em;
     }
@@ -509,24 +506,6 @@ footer{
     /*PORTFOLIO*/
     /*PORTFOLIO*/
     /*PORTFOLIO*/
-
-    .portfolioLine{
-        display: block;
-        gap: 50px;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        width: 97%;
-    }
-    .blocks{
-        width: 100%;
-        transition: 200ms;
-    }
-    .blocks:not(:last-child){
-    margin-bottom: 15%;
-    }
-    .blocks:hover{
-        text-decoration: underline;
-    }
     .titlePortfolio{
         font-size: 2em;
     }
@@ -681,23 +660,6 @@ footer{
     /*PORTFOLIO*/
     /*PORTFOLIO*/
 
-    .portfolioLine{
-        display: block;
-        gap: 50px;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        width: 97%;
-    }
-    .blocks{
-        width: 100%;
-        transition: 200ms;
-    }
-    .blocks:not(:last-child){
-        margin-bottom: 15%;
-    }
-    .blocks:hover{
-        text-decoration: underline;
-    }
     .titlePortfolio{
         font-size: 1.5em;
     }
