@@ -4,13 +4,6 @@ body{
     margin: 55px;
     background-color: white;
     font-family: 'Lexend', sans-serif;
-    filter: invert(0%);
-    animation-name: filterAnimation;
-    animation-duration: 2s;
-}
-@keyframes filterAnimation {
-    from{filter: invert(100%); background-color: black;}
-    to{filter: invert(0%);}
 }
 #myDiv{
     opacity: 0;
