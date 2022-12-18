@@ -802,6 +802,7 @@ footer{
         color: black;
         font-size: 1em;
         transition: 200ms;
+        margin-bottom: 15px;
     }
     .link:hover{
         color: #ababab;
