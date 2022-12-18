@@ -107,7 +107,15 @@
     </a>
 </div>
 
+<div class="loader-wrapper">
+    <span class="loader"><img src="Images/Logo.svg" alt="logo" id="logo"><span class="loader-inner"></span></span>
+</div>
 
+<script>
+    $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+    });
+</script>
 
 <footer>
     <p>Designed & developed by Adam. :D</p>
