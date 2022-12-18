@@ -33,13 +33,6 @@ a:link{
     position: relative;
     animation: loader 2s infinite ease;
 }
-.loader-inner {
-    vertical-align: top;
-    display: inline-block;
-    width: 100%;
-    background-color: #fff;
-    animation: loader-inner 2s infinite ease-in;
-}
 
 @keyframes loader {
     0% { transform: rotate(0deg);}
@@ -259,6 +252,27 @@ footer{
     padding: 2%;
     text-align: center;
     margin-top: 50px;
+}
+
+/*SMALL SCREENS*/
+/*SMALL SCREENS*/
+/*SMALL SCREENS*/
+
+@media (max-width: 1360px) {
+    .portfolioLine{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-gap: 50px;
+    }
+    .blocks{
+        width: 100%;
+        transition: 200ms;
+        display: grid;
+        grid-template-rows: min-content 65px 1fr;
+    }
 }
 
 /*SMALL SCREENS*/
