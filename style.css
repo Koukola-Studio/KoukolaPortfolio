@@ -15,8 +15,11 @@ a:link{
     from{filter: invert(100%); background-color: black;}
     to{filter: invert(0%);}
 }
-
-.loader-wrapper {
+#myDiv{
+    opacity: 0;
+    transition: 500ms;
+}
+#loader-wrapper{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -26,6 +29,8 @@ a:link{
     display:flex;
     justify-content: center;
     align-items: center;
+    opacity: 1;
+    transition: 500ms;
 }
 .loader {
     display: inline-block;

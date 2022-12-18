@@ -6,9 +6,27 @@
     <link href="style.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
-</head>
-<body>
 
+    <script>
+        var myVar;
+
+        function myFunction() {
+            myVar = setTimeout(showPage, 3000);
+            myVar = setTimeout(display, 3550);
+        }
+
+        function showPage() {
+            document.getElementById("loader-wrapper").style.opacity = "0";
+            document.getElementById("myDiv").style.opacity = "1";
+        }
+        function display(){
+            document.getElementById("loader-wrapper").style.display = "none";
+        }
+    </script>
+
+</head>
+<body onload="myFunction()">
+<div id="myDiv">
 <div id="landingPage">
 <nav>
     <h2>hello@koukola.art</h2>
@@ -107,21 +125,15 @@
     </a>
 </div>
 
-<div class="loader-wrapper">
-    <span class="loader"><img src="Images/Logo.svg" alt="logo" id="logo"><span class="loader-inner"></span></span>
+    <footer>
+        <p>Designed & developed by Adam. :D</p>
+        <p>©2022 , Koukola Adam</p>
+    </footer>
 </div>
 
-<script>
-    $(window).on("load",function(){
-        $(".loader-wrapper").fadeOut("slow");
-    });
-</script>
-
-<footer>
-    <p>Designed & developed by Adam. :D</p>
-    <p>©2022 , Koukola Adam</p>
-</footer>
-
+<div id="loader-wrapper">
+    <span class="loader"><img src="Images/Logo.svg" alt="logo" id="logo"><span class="loader-inner"></span></span>
+</div>
 
 </body>
 </html>
