@@ -145,7 +145,8 @@ h2{
     margin-bottom: auto;
 }
 .mainTitle{
-    font-weight: normal;
+    font-weight: 400;
+    font-family: 'Lexend', sans-serif;
 }
 .nextMainTitle{
     color: #ababab;
@@ -365,7 +366,7 @@ footer{
     }
     .mainTitle{
         font-weight: 400;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Lexend', sans-serif;
     }
     .nextMainTitle{
         color: #ababab;
@@ -448,6 +449,15 @@ footer{
 
     .images{
         display: block;
+    }
+    .logoSMALL{
+        width: 100%;
+        height: 100%;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
     }
     #logo1{
         width: 100%;
@@ -577,7 +587,7 @@ footer{
     }
     .mainTitle{
         font-weight: 400;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Lexend', sans-serif;
         font-size: 2.25em;
     }
     .nextMainTitle{
@@ -809,7 +819,7 @@ footer{
     }
     .mainTitle{
         font-weight: 400;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Lexend', sans-serif;
         font-size: 1.75em;
     }
     .nextMainTitle{

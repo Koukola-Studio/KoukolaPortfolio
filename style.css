@@ -303,7 +303,7 @@ footer{
     }
     #mainTitle{
         font-weight: 400;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Lexend', sans-serif;
     }
     #nextMainTitle{
         color: #ababab;
@@ -348,6 +348,8 @@ footer{
     /*PORTFOLIO*/
     .titlePortfolio{
         font-size: 1.5em;
+        font-weight: 400;
+        font-family: 'Lexend', sans-serif;
     }
     .subtitlePortfolio{
         font-size: 1em;
@@ -449,7 +451,7 @@ footer{
     }
     #mainTitle{
         font-weight: 400;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Lexend', sans-serif;
         font-size: 2.25em;
     }
     #nextMainTitle{
@@ -629,7 +631,7 @@ footer{
     }
     #mainTitle{
         font-weight: 400;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Lexend', sans-serif;
         font-size: 1.75em;
     }
     #nextMainTitle{
