@@ -6,8 +6,25 @@
   <link href="../styleProject.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="../Images/favicon.ico">
+  <script>
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+      myVar = setTimeout(display, 3550);
+    }
+
+    function showPage() {
+      document.getElementById("loader-wrapper").style.opacity = "0";
+      document.getElementById("myDiv").style.opacity = "1";
+    }
+    function display(){
+      document.getElementById("loader-wrapper").style.display = "none";
+    }
+  </script>
 </head>
-<body>
+<body onload="myFunction()">
+<div id="myDiv">
 
 <div id="landingPage">
   <nav>
@@ -18,6 +35,7 @@
       <a href="https://www.linkedin.com/in/adam-koukola-78822a1a9/" class="link">Linked In</a>
     </div>
   </nav>
+</div>
 
   <div id="rectangles">
     <!--<div class="rectangle"></div>-->
@@ -40,7 +58,6 @@
       <h4 class="sideTitle">— Šumperský Majáles is one of the largest music festivals in the Šumperk region. Hundreds to thousands of people gather here every year. Artists from the Czech Republic, Slovakia and other countries perform here. For example Viktor Sheen, Yzomandias, Nik Tendo, Kontrafakt, Rocky Leon, and others.</h4>
     </div>
   </div>
-</div>
 
 <div id="preparationBlock">
   <div id="preparationBlockL">
@@ -54,7 +71,6 @@
 
       — The logo will consist of a logo symbol that can also be used as a standalone object. Then there will be a logotype that will also represent the name of the event.</h4>
   </div>
-</div>
 </div>
 
 <div id="designBlock">
@@ -70,7 +86,6 @@
       — Together, the symbols expresses that person is going through a journey at this event where the music is full of energy and never gets tired.</h4>
   </div>
 </div>
-</div>
 
 <div id="finalBlock">
   <div id="finalBlockL">
@@ -84,7 +99,6 @@
     </div>
   </div>
 </div>
-</div>
 
 <div id="conclusionBlock">
   <div id="conclusionBlockL">
@@ -95,13 +109,16 @@
     <h4 class="sideTitle">— Designing the graphics for the music festival has been a dream of mine for a long time. This year the dream has become a reality and I am very happy. On day of the release, I received a lot of positive feedback. Creating the logo for the music festival was a new and very positive experience for me. I'm definitely looking forward to further collaborations! :-)</h4>
   </div>
 </div>
-</div>
 
 <footer>
   <p>Designed & developed by Adam. :D</p>
   <p>©2022 , Koukola Adam</p>
 </footer>
+  </div>
 
+<div id="loader-wrapper">
+  <span class="loader"><img src="../Images/Logo.svg" alt="logo" id="logo"><span class="loader-inner"></span></span>
+</div>
 
 </body>
 </html>
