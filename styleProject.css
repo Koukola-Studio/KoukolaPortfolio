@@ -14,6 +14,7 @@ body{
 }
 #myDiv{
     opacity: 0;
+    display: none;
     transition: 500ms;
 }
 #loader-wrapper{
@@ -22,12 +23,12 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #080C12;
     display:flex;
     justify-content: center;
     align-items: center;
     opacity: 1;
     transition: 500ms;
+    filter: invert(100%);
 }
 .loader {
     display: inline-block;
