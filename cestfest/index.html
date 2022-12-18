@@ -6,8 +6,25 @@
   <link href="../styleProject.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/x-icon" href="../Images/favicon.ico">
+  <script>
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+      myVar = setTimeout(display, 3550);
+    }
+
+    function showPage() {
+      document.getElementById("loader-wrapper").style.opacity = "0";
+      document.getElementById("myDiv").style.opacity = "1";
+    }
+    function display(){
+      document.getElementById("loader-wrapper").style.display = "none";
+    }
+  </script>
 </head>
-<body>
+<body onload="myFunction()">
+<div id="myDiv">
 
 <div id="landingPage">
   <nav>
@@ -18,6 +35,7 @@
       <a href="https://www.linkedin.com/in/adam-koukola-78822a1a9/" class="link">Linked In</a>
     </div>
   </nav>
+  </div>
 
   <div id="rectangles">
     <!--<div class="rectangle"></div>-->
@@ -32,7 +50,6 @@
       <h4 class="sideTitle">— Detail coming soon!</h4>
     </div>
   </div>
-</div>
 
 <!--<div id="preparationBlock">
   <div id="preparationBlockL">
@@ -78,7 +95,6 @@
     </div>
   </div>
 </div>
-</div>
 
 <!--<div id="conclusionBlock">
   <div id="conclusionBlockL">
@@ -95,7 +111,11 @@
   <p>Designed & developed by Adam. :D</p>
   <p>©2022 , Koukola Adam</p>
 </footer>
+</div>
 
+<div id="loader-wrapper">
+  <span class="loader"><img src="../Images/Logo.svg" alt="logo" id="logo"><span class="loader-inner"></span></span>
+</div>
 
 </body>
 </html>
