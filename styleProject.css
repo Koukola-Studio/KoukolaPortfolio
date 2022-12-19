@@ -122,7 +122,8 @@ h2{
 /*VIDEO*/
 
 .video{
-    background-color: #6E158B;
+    background-color: #641581;
+
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     transition: 500ms;
