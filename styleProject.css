@@ -312,6 +312,42 @@ footer{
     margin-top: 50px;
 }
 
+/*RATING*/
+/*RATING*/
+/*RATING*/
+
+.rating{
+    display: inline-flex;
+    width: 100%;
+    background-color: #080c12;
+    gap: 50px;
+    color: white;
+    margin-top: 75px;
+}
+.mainBlockL{
+    width: 25%;
+    margin: 25px 50px 25px 50px;
+}
+.mainBlockR{
+    width: 65%;
+    margin: 25px 50px 25px 50px;
+}
+.name{
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+}
+.position{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+}
+.ratingText{
+    font-weight: 200;
+    font-size: 1.15em;
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 1px;
+    text-space: 20px;
+}
+
 /*SMALL SCREENS*/
 /*SMALL SCREENS*/
 /*SMALL SCREENS*/
@@ -538,6 +574,40 @@ footer{
         padding: 2%;
         text-align: center;
         margin-top: 50px;
+    }
+
+    /*RATING*/
+    /*RATING*/
+    /*RATING*/
+
+    .rating{
+        display: table;
+        width: 100%;
+
+    }
+    .mainBlockL{
+        width: 100%;
+        margin: 50px;
+    }
+    .mainBlockR{
+        width: 85%;
+        margin: 50px;
+    }
+    .name{
+        font-family: 'Lexend', sans-serif;
+        font-weight: 400;
+    }
+    .position{
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 400;
+        font-size: 1.1em;
+    }
+    .ratingText{
+        font-weight: 200;
+        font-size: 1.1em;
+        font-family: 'Space Grotesk', sans-serif;
+        letter-spacing: 1px;
+        text-space: 20px;
     }
 }
 
@@ -775,8 +845,79 @@ footer{
         font-size: 1.15em;
         letter-spacing: 1px;
     }
+
+    /*RATING*/
+    /*RATING*/
+    /*RATING*/
+
+    .rating{
+        display: table;
+        width: 100%;
+
+    }
+    .mainBlockL{
+        width: 100%;
+        margin: 50px;
+    }
+    .mainBlockR{
+        width: 80%;
+        margin: 50px;
+    }
+    .name{
+        font-family: 'Lexend', sans-serif;
+        font-weight: 400;
+    }
+    .position{
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 400;
+        font-size: 1.1em;
+    }
+    .ratingText{
+        font-weight: 200;
+        font-size: 1.1em;
+        font-family: 'Space Grotesk', sans-serif;
+        letter-spacing: 1px;
+        text-space: 20px;
+    }
 }
 
+
+@media (max-width: 620px) {
+    /*RATING*/
+    /*RATING*/
+    /*RATING*/
+
+    .rating{
+        display: table;
+        width: 100%;
+
+    }
+    .mainBlockL{
+        width: 80%;
+        margin: 35px;
+    }
+    .mainBlockR{
+        width: 75%;
+        margin: 35px;
+    }
+    .name{
+        font-family: 'Lexend', sans-serif;
+        font-weight: 400;
+        font-size: 1.75em;
+    }
+    .position{
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 300;
+        font-size: 1em;
+    }
+    .ratingText{
+        font-weight: 200;
+        font-size: 1em;
+        font-family: 'Space Grotesk', sans-serif;
+        letter-spacing: 1px;
+        text-space: 20px;
+    }
+}
 /*MOBILE SCREENS*/
 /*MOBILE SCREENS*/
 /*MOBILE SCREENS*/
@@ -994,5 +1135,40 @@ footer{
         margin-top: 150px;
         font-size: 0.8em;
         letter-spacing: 1px;
+    }
+
+    /*RATING*/
+    /*RATING*/
+    /*RATING*/
+
+    .rating{
+        display: table;
+        width: 100%;
+
+    }
+    .mainBlockL{
+        width: 80%;
+        margin: 35px;
+    }
+    .mainBlockR{
+        width: 75%;
+        margin: 35px;
+    }
+    .name{
+        font-family: 'Lexend', sans-serif;
+        font-weight: 400;
+        font-size: 1.75em;
+    }
+    .position{
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 400;
+        font-size: 1em;
+    }
+    .ratingText{
+        font-weight: 200;
+        font-size: 1em;
+        font-family: 'Space Grotesk', sans-serif;
+        letter-spacing: 1px;
+        text-space: 20px;
     }
 }
