@@ -162,7 +162,7 @@ h2{
 #textPicture{
     gap: 55px;
 }
-#profile{
+.profile{
     width: 150px;
     height: 150px;
     -webkit-user-drag: none;
@@ -352,7 +352,7 @@ footer{
     #textPicture{
         gap: 55px;
     }
-    #profile{
+    .profile{
         width: 150px;
         height: 150px;
     }
@@ -428,7 +428,7 @@ footer{
     #textPicture{
         gap: 35px;
     }
-    #profile{
+    .profile{
         width: 125px;
         height: 125px;
     }
@@ -613,7 +613,7 @@ footer{
         margin-top: auto;
         margin-bottom: auto;
     }
-    #profile{
+    .profile{
         width: 150px;
         height: 150px;
     }
@@ -624,7 +624,7 @@ footer{
     #textPicture{
         gap: 35px;
     }
-    #profile{
+    .profile{
         width: 125px;
         height: 125px;
     }
@@ -861,7 +861,7 @@ footer{
     #textPicture{
         gap: 35px;
     }
-    #profile{
+    .profile{
         width: 125px;
         height: 125px;
     }
