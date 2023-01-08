@@ -5,6 +5,12 @@ body{
     background-color: white;
     font-family: 'Lexend', sans-serif;
 }
+#errorContent{
+    width: 100%;
+    height: 50em;
+    display: table-cell;
+    vertical-align: middle;
+}
 a:link{
     text-decoration: none;
 }
