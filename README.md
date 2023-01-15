@@ -2,4 +2,4 @@
 
 Oficiální portfolio stránka, kterou používám k prezentaci.
 
-https://koukola.studio/
+https://koukolaadam.com/
