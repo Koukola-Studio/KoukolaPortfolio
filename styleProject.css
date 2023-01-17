@@ -4,6 +4,12 @@ body{
     margin: 55px;
     background-color: white;
     font-family: 'Lexend', sans-serif;
+
+}
+#logoK{
+    width: 7%;
+    filter: invert(100%);
+    background: white;
 }
 #myDiv{
     opacity: 0;
