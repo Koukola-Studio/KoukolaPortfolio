@@ -309,6 +309,11 @@ footer{
     color: #ffffff;
 }
 
+.portImage{
+    max-width: 100%;
+    background: #080c12;
+}
+
 /*SMALL SCREENS*/
 /*SMALL SCREENS*/
 /*SMALL SCREENS*/
