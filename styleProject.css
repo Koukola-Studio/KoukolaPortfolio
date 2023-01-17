@@ -362,6 +362,11 @@ footer{
     body{
         margin: 65px
     }
+    #logoK{
+        width: 15%;
+        filter: invert(100%);
+        background: white;
+    }
     /*NAV BAR*/
     /*NAV BAR*/
     /*NAV BAR*/
@@ -624,6 +629,11 @@ footer{
 @media (max-width: 768px){
     body{
         margin: 65px
+    }
+    #logoK{
+        width: 20%;
+        filter: invert(100%);
+        background: white;
     }
     /*NAV BAR*/
     /*NAV BAR*/
@@ -892,7 +902,11 @@ footer{
     /*RATING*/
     /*RATING*/
     /*RATING*/
-
+    #logoK{
+        width: 30%;
+        filter: invert(100%);
+        background: white;
+    }
     .rating{
         display: table;
         width: 100%;
