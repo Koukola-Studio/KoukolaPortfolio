@@ -1004,3 +1004,26 @@ footer{
         grid-template-rows: min-content 100px;
     }
 }
+
+
+#librity{
+    background-color: #080c12;
+}
+#yumi{
+    background-color: #080c12;
+}
+#tFestival{
+    background-color: #8758FF;
+}
+#tFestival2{
+    background-color: #F8F8F8;
+}
+/*#majales{
+    background-color: #63157F;
+}*/
+#pknB{
+    background-color: #42277F;
+}
+#pknB2{
+    background-color: #F8F8F8;
+}
