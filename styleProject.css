@@ -299,6 +299,11 @@ h2{
 }
 .logoSMALLCV:hover{
     filter: grayscale(0%);
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
     transition: 350ms;
 }
 .logoBIG{
@@ -573,6 +578,11 @@ footer{
     .logoSMALLCV:hover{
         filter: grayscale(0%);
         transition: 350ms;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
     }
     #logo1{
         width: 100%;
