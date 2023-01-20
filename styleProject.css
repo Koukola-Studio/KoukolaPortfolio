@@ -272,6 +272,7 @@ h2{
 
 .images{
     display: inline-flex;
+    gap: 5px;
 }
 .imagesBIG{
     width: 100%;
@@ -284,6 +285,12 @@ h2{
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+    filter: grayscale(100%);
+    transition: 350ms;
+}
+.logoSMALL:hover{
+    filter: grayscale(0%);
+    transition: 350ms;
 }
 .logoBIG{
     width: 100%;
@@ -1217,4 +1224,36 @@ footer{
 }
 #pknB2{
     background-color: #F8F8F8;
+}
+.nameCV{
+    color: black;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+}
+.linkCV{
+    text-decoration: none;
+    color: #ababab;
+    transition: 200ms;
+    display: inline-block;
+    position: relative;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.linkCV:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    color: black;
+}
+
+.linkCV:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    color: black;
 }
