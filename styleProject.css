@@ -285,10 +285,19 @@ h2{
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+}
+.logoSMALLCV{
+    width: 50%;
+    height: 50%;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
     filter: grayscale(100%);
     transition: 350ms;
 }
-.logoSMALL:hover{
+.logoSMALLCV:hover{
     filter: grayscale(0%);
     transition: 350ms;
 }
@@ -549,6 +558,21 @@ footer{
         -moz-user-select: none;
         -webkit-user-select: none;
         -ms-user-select: none;
+    }
+    .logoSMALLCV{
+        width: 100%;
+        height: 100%;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        filter: grayscale(100%);
+        transition: 350ms;
+    }
+    .logoSMALLCV:hover{
+        filter: grayscale(0%);
+        transition: 350ms;
     }
     #logo1{
         width: 100%;
