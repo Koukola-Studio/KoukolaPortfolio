@@ -19,11 +19,11 @@
       let historie = "";
 
       function linky(){
-        if (document.referrer === "https://koukolaadam.com/cz/o-mne") {
+        if (document.referrer === "https://koukolaadam.com/cz/o-mne/") {
           historie = "../index.html";
         }
         else {
-          if (document.referrer === "https://www.koukolaadam.com/cz/o-mne") {
+          if (document.referrer === "https://www.koukolaadam.com/cz/o-mne/") {
             historie = "../index.html";
           }
           else {
@@ -36,7 +36,7 @@
 
       document.write('<a href="' + historie + '" id="homeLink"><h2>Click here to go back.</h2></a>');
 
-      document.write('<p>' + historie + ' Test flight</p>');
+      //document.write('<p>' + historie + ' Test flight</p>');
     </script>
 
     <div id="links">
