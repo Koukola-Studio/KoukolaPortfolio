@@ -270,6 +270,21 @@ h2{
     text-align: justify;
 }
 
+#brandingBlock{
+    display: inline-flex;
+    gap: 50px;
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#brandingBlockL{
+    width: 50%;
+}
+#brandingBlockR{
+    width: 50%;
+    text-align: justify;
+}
+
 .images{
     display: inline-flex;
     gap: 5px;
@@ -842,13 +857,29 @@ footer{
         gap: 50px;
         margin-top: 15%;
         margin-bottom: 15%;
-        width: 97%;
+        width: 100%;
         font-weight: 300;
     }
     #finalBlockL{
         width: 100%;
     }
     #finalBlockR{
+        width: 100%;
+        text-align: justify;
+    }
+
+    #brandingBlock{
+        display: block;
+        gap: 50px;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        width: 100%;
+        font-weight: 300;
+    }
+    #brandingBlockL{
+        width: 100%;
+    }
+    #brandingBlockR{
         width: 100%;
         text-align: justify;
     }
