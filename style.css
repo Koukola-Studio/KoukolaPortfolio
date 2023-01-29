@@ -7,7 +7,7 @@ body{
 }
 .line{
     width: 100%;
-    border: 1px solid #ababab;
+    border: 1px solid #eeeeee;
     display: block;
 }
 #errorContent{
