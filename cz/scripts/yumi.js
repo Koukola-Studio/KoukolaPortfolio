@@ -1,4 +1,4 @@
-let animationYumi = bodymovin.loadAnimation({
+let animationYumiCZ = bodymovin.loadAnimation({
     container: document.getElementById('yumi'),
     renderer: 'svg',
     loop: true,
