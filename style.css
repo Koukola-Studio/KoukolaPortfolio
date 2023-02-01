@@ -318,6 +318,9 @@ footer{
     filter: invert(100%);
     background: white;
 }
+#kFont{
+    background-color: black;
+}
 
 /*SMALL SCREENS*/
 /*SMALL SCREENS*/

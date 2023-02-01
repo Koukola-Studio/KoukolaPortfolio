@@ -1,4 +1,4 @@
-let animationKFont = bodymovin.loadAnimation({
+bodymovin.loadAnimation({
     container: document.getElementById('kFont'),
     renderer: 'svg',
     loop: true,
