@@ -344,6 +344,21 @@ h2{
     width: 50%;
     text-align: justify;
 }
+
+#billBlock{
+    display: inline-flex;
+    gap: 50px;
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#billBlockL{
+    width: 50%;
+}
+#billBlockR{
+    width: 50%;
+    text-align: justify;
+}
 /*FOOTER*/
 /*FOOTER*/
 /*FOOTER*/
@@ -638,6 +653,20 @@ footer{
         text-align: justify;
     }
 
+    #billBlock{
+        display: inline-flex;
+        gap: 50px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 97%;
+    }
+    #billBlockL{
+        width: 50%;
+    }
+    #billBlockR{
+        width: 50%;
+        text-align: justify;
+    }
     /*FOOTER*/
     /*FOOTER*/
     /*FOOTER*/
@@ -926,6 +955,23 @@ footer{
         width: 100%;
         text-align: justify;
     }
+
+    #billBlock{
+        display: block;
+        gap: 50px;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        width: 97%;
+        font-weight: 300;
+    }
+    #billBlockL{
+        width: 100%;
+    }
+    #billBlockR{
+        width: 100%;
+        text-align: justify;
+    }
+
 
     /*FOOTER*/
     /*FOOTER*/
@@ -1218,6 +1264,22 @@ footer{
         width: 100%;
     }
     #conclusionBlockR{
+        width: 100%;
+        text-align: justify;
+    }
+
+    #billBlock{
+        display: block;
+        gap: 50px;
+        margin-top: 35%;
+        margin-bottom: 35%;
+        width: 97%;
+        font-weight: 300;
+    }
+    #billBlockL{
+        width: 100%;
+    }
+    #billBlockR{
         width: 100%;
         text-align: justify;
     }

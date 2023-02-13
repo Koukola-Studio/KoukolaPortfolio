@@ -185,6 +185,7 @@ h3{
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+    border-radius: 100%;
 }
 /*.logoJob{
     width: 25%;
@@ -1028,5 +1029,8 @@ footer{
     background-color: #42277F;
 }
 #pknB2{
+    background-color: #F8F8F8;
+}
+#pknT{
     background-color: #F8F8F8;
 }
